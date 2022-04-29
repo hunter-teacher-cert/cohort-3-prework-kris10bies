@@ -5,7 +5,7 @@ int value = 30;
 int sum;
 int hour = 10;
 int minute = 11;
-  
+
 number = 20;
 
 sum = number + value;
@@ -27,6 +27,7 @@ System.out.println("The time is " +hour+ ":" +minute);
 System.out.println("The number of minutes until I go to sleep");
 System.out.println(minute + 39+ "minutes");
 System.out.println("My sleep efficiency is "+(hour*60+minute*100)/60+"%");
+
 }
 
 }
