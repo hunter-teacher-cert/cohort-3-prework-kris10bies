@@ -3,6 +3,8 @@ public static void main(String[]args){
 int number;
 int value = 30;
 int sum;
+int hour = 10;
+int minute = 11;
   
 number = 20;
 
@@ -19,6 +21,12 @@ number = number - 1;
 System.out.println("Number: "+number);
 System.out.println("Value: "+value);
 System.out.println("Sum: "+sum);
+
+System.out.println("The time is " +hour+ ":" +minute);
+
+System.out.println("The number of minutes until I go to sleep");
+System.out.println(minute + 39+ "minutes");
+System.out.println("My sleep efficiency is "+(hour*60+minute*100)/60+"%");
 }
 
 }
