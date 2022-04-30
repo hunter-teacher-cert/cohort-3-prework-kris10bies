@@ -3,8 +3,13 @@ import java.util.*;
 
 public class Greeter{
 
+public static void newLine(){
+  System.out.println();
+}
+  
 public static void namedGreet(String name){
 System.out.println("Bonjour!"+name);
+  
   
 }
 
@@ -15,16 +20,20 @@ System.out.println("Hey");
 }
 
 public static void generationGreet(String name, int number){
-  System.out.println("Hola"+name+"the"+number);
+  System.out.println("Hola "+name+"the "+number);
 }
+
   
 public static void main(String[] args){
-
+  
 greet();
-greet();  
+greet();
+  newLine();
 namedGreet(" Kristen");
 namedGreet(" Addie");
-generationGreet(" Josh",2);
+  newLine();
+generationGreet("Josh ",2);
+
 }
 
 }
