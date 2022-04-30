@@ -24,6 +24,7 @@ public static void main(String[] args){
     System.out.println("B is smaller.");
     else
     System.out.println("B is equal.");
-      
+
+
   }
 }

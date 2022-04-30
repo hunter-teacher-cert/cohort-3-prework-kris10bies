@@ -1,3 +1,6 @@
+import java.io.*;
+impot java.util.*;
+
 import java.util.Scanner;
 public class Survey{
 
