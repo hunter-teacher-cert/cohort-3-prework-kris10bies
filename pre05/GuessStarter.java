@@ -3,7 +3,7 @@ import java.util.Random;
 public class GuessStarter {
 
     public static void main(String[] args) {
-        // pick a random number
+        System.out.print("Roll: ");
         Random random = new Random();
         int number = random.nextInt(12) + 1;
         System.out.println(number);
